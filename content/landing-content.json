@@ -1,0 +1,135 @@
+{
+  "status": "draft",
+  "experience": {
+    "theme": "cyberpunk-paineis-angulares",
+    "visualDirection": {
+      "background": "#080A0B",
+      "surface": "#111518",
+      "text": "#F4F4EC",
+      "muted": "#B5B9B8",
+      "primary": "#FCEE09",
+      "selection": "#00D9F5",
+      "headingFont": "Rajdhani",
+      "backgroundGeometry": "original-svg-css"
+    },
+    "welcome": {
+      "text": "Bem-vindo",
+      "effect": "glitch",
+      "durationMs": 900,
+      "oncePerSession": true,
+      "blocking": false,
+      "reducedMotion": "static"
+    }
+  },
+  "brand": {
+    "name": "Pedro Sodré",
+    "title": "Pedro Sodré | Sites e landing pages",
+    "description": "Desenvolvimento de sites, landing pages e reformulação de sites com Pedro Sodré. Mais de cinco anos de experiência em desenvolvimento de software.",
+    "language": "pt-BR"
+  },
+  "hero": {
+    "eyebrow": "Pedro Sodré · Desenvolvimento web",
+    "title": "Seu negócio merece um site à altura.",
+    "description": "Desenvolvo sites e landing pages que combinam design, clareza e tecnologia. Também reformulo sites existentes para dar uma nova presença à sua marca.",
+    "cta": {
+      "label": "Conversar sobre meu projeto",
+      "href": null,
+      "channel": "whatsapp",
+      "status": "pending_contact"
+    },
+    "secondaryCta": {
+      "label": "Conhecer os serviços",
+      "href": "#servicos"
+    }
+  },
+  "sections": [
+    {
+      "id": "servicos",
+      "title": "Do primeiro site à próxima versão.",
+      "items": [
+        {
+          "title": "Desenvolvimento de sites",
+          "body": "Sites para apresentar sua marca, organizar seus serviços e facilitar o contato com quem procura o que você oferece."
+        },
+        {
+          "title": "Landing pages",
+          "body": "Páginas focadas em uma oferta, campanha ou serviço, com conteúdo direto e um caminho claro para o contato."
+        },
+        {
+          "title": "Reformulação de sites",
+          "body": "Atualização do visual, da estrutura e da navegação para alinhar seu site à fase atual do seu negócio."
+        }
+      ]
+    },
+    {
+      "id": "projetos",
+      "title": "Projetos selecionados",
+      "status": "pending_projects",
+      "hideWhenEmpty": false,
+      "emptyState": {
+        "publicPlaceholderCount": 3,
+        "label": "Projeto em preparação",
+        "linksEnabled": false,
+        "previewDemoCount": 6
+      },
+      "presentation": {
+        "type": "carousel",
+        "visibleCards": { "desktop": 3, "tablet": 2, "mobile": 1 },
+        "autoplay": false,
+        "loop": false,
+        "controls": ["arrows", "swipe", "keyboard"],
+        "loadingEffect": "scanline",
+        "reducedMotion": "static",
+        "externalLinkLabel": "Visitar projeto"
+      },
+      "items": []
+    },
+    {
+      "id": "sobre",
+      "title": "Experiência técnica. Olhar para o design.",
+      "body": "Sou Pedro Sodré, desenvolvedor de software há mais de cinco anos, com experiência em design corporativo. Combino tecnologia e cuidado visual para criar sites ágeis, modernos e alinhados à identidade de cada negócio. Meu foco é transformar ideias em páginas claras, funcionais e agradáveis de usar."
+    },
+    {
+      "id": "contato",
+      "title": "Vamos conversar sobre seu próximo site?",
+      "body": "Me conte o que você precisa criar ou melhorar. Preencha o formulário para solicitar um orçamento ou fale comigo pelo WhatsApp.",
+      "form": {
+        "status": "pending_email_setup",
+        "submitLabel": "Enviar solicitação de orçamento",
+        "submittingLabel": "Enviando…",
+        "successMessage": "Sua solicitação foi enviada. Obrigado por contar sobre o projeto!",
+        "errorMessage": "Não foi possível enviar agora. Tente novamente ou fale comigo pelo WhatsApp.",
+        "privacyNotice": "Seus dados serão usados para responder à sua solicitação de orçamento.",
+        "fields": [
+          { "name": "name", "label": "Nome", "type": "text", "required": true },
+          { "name": "email", "label": "E-mail", "type": "email", "required": true },
+          { "name": "phone", "label": "WhatsApp", "type": "tel", "required": false },
+          { "name": "service", "label": "Serviço desejado", "type": "select", "required": true, "options": ["Site", "Landing page", "Reformulação de site", "Preciso de orientação"] },
+          { "name": "message", "label": "Sobre o projeto", "type": "textarea", "required": true },
+          { "name": "website", "label": "Site atual", "type": "url", "required": false },
+          { "name": "timeline", "label": "Prazo desejado", "type": "text", "required": false }
+        ]
+      },
+      "actions": [
+        {
+          "label": "Falar pelo WhatsApp",
+          "channel": "whatsapp",
+          "href": null,
+          "status": "pending_contact"
+        },
+        {
+          "label": "Enviar e-mail",
+          "channel": "email",
+          "href": null,
+          "status": "pending_contact"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "whatsapp": null,
+    "email": null,
+    "whatsappMessage": "Olá, Pedro! Vi seu portfólio e gostaria de conversar sobre um projeto."
+  },
+  "footer": "Pedro Sodré · Desenvolvimento web"
+}

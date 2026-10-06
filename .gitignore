@@ -1,0 +1,14 @@
+# Referências de design para consulta local; não são assets de publicação.
+.design/references/
+
+# Credenciais e configurações locais.
+.env*
+!.env.example
+.vercel/
+
+# Saídas de desenvolvimento.
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
