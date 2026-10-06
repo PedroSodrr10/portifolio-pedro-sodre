@@ -11,8 +11,7 @@ node_modules/
 .next/
 out/
 coverage/
-qa/*.png
-qa/*.json
+qa/
 *.tsbuildinfo
 
 .vercel
