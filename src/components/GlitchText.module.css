@@ -1,0 +1,41 @@
+.glitch {
+  position: relative;
+  display: inline-block;
+}
+.active::after,
+.active::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 3px;
+  color: var(--yellow);
+  background: var(--bg);
+  overflow: hidden;
+  clip-path: inset(0);
+  text-shadow: -3px 0 var(--cyan);
+  animation: glitch 0.3s 3 linear alternate-reverse;
+}
+.active::before {
+  left: -3px;
+  text-shadow: 3px 0 var(--cyan);
+  animation-duration: 0.45s;
+  animation-iteration-count: 2;
+}
+@keyframes glitch {
+  0%,
+  100% {
+    clip-path: inset(20% 0 50%);
+  }
+  20% {
+    clip-path: inset(30% 0 40%);
+  }
+  40% {
+    clip-path: inset(10% 0 60%);
+  }
+  60% {
+    clip-path: inset(40% 0 20%);
+  }
+  80% {
+    clip-path: inset(25% 0 35%);
+  }
+}

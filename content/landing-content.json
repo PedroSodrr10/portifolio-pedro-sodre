@@ -1,5 +1,5 @@
 {
-  "status": "draft",
+  "status": "preview",
   "experience": {
     "theme": "cyberpunk-paineis-angulares",
     "visualDirection": {
@@ -33,14 +33,19 @@
     "description": "Desenvolvo sites e landing pages que combinam design, clareza e tecnologia. Também reformulo sites existentes para dar uma nova presença à sua marca.",
     "cta": {
       "label": "Conversar sobre meu projeto",
-      "href": null,
+      "href": "https://wa.me/5543988234544?text=Ol%C3%A1%2C%20Pedro!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.",
       "channel": "whatsapp",
-      "status": "pending_contact"
+      "status": "configured"
     },
     "secondaryCta": {
       "label": "Conhecer os serviços",
       "href": "#servicos"
-    }
+    },
+    "titleLines": [
+      "Seu negócio merece",
+      "um site"
+    ],
+    "titleAccent": "à altura."
   },
   "sections": [
     {
@@ -74,15 +79,26 @@
       },
       "presentation": {
         "type": "carousel",
-        "visibleCards": { "desktop": 3, "tablet": 2, "mobile": 1 },
+        "visibleCards": {
+          "desktop": 3,
+          "tablet": 2,
+          "mobile": 1
+        },
         "autoplay": false,
         "loop": false,
-        "controls": ["arrows", "swipe", "keyboard"],
+        "controls": [
+          "arrows",
+          "swipe",
+          "keyboard"
+        ],
         "loadingEffect": "scanline",
         "reducedMotion": "static",
         "externalLinkLabel": "Visitar projeto"
       },
-      "items": []
+      "items": [],
+      "displayTitle": "Ideias que ganham",
+      "titleAccent": "forma na web.",
+      "description": "Este espaço está sendo preparado. Em breve, projetos para você explorar."
     },
     {
       "id": "sobre",
@@ -97,38 +113,84 @@
         "status": "pending_email_setup",
         "submitLabel": "Enviar solicitação de orçamento",
         "submittingLabel": "Enviando…",
-        "successMessage": "Sua solicitação foi enviada. Obrigado por contar sobre o projeto!",
-        "errorMessage": "Não foi possível enviar agora. Tente novamente ou fale comigo pelo WhatsApp.",
+        "successMessage": "Sua solicitação foi aceita pelo serviço de e-mail. Obrigado por contar sobre o projeto!",
+        "errorMessage": "O formulário está temporariamente indisponível. Fale comigo pelo WhatsApp ou e-mail.",
         "privacyNotice": "Seus dados serão usados para responder à sua solicitação de orçamento.",
         "fields": [
-          { "name": "name", "label": "Nome", "type": "text", "required": true },
-          { "name": "email", "label": "E-mail", "type": "email", "required": true },
-          { "name": "phone", "label": "WhatsApp", "type": "tel", "required": false },
-          { "name": "service", "label": "Serviço desejado", "type": "select", "required": true, "options": ["Site", "Landing page", "Reformulação de site", "Preciso de orientação"] },
-          { "name": "message", "label": "Sobre o projeto", "type": "textarea", "required": true },
-          { "name": "website", "label": "Site atual", "type": "url", "required": false },
-          { "name": "timeline", "label": "Prazo desejado", "type": "text", "required": false }
+          {
+            "name": "name",
+            "label": "Nome",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "email",
+            "label": "E-mail",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "label": "WhatsApp",
+            "type": "tel",
+            "required": false
+          },
+          {
+            "name": "service",
+            "label": "Serviço desejado",
+            "type": "select",
+            "required": true,
+            "options": [
+              "Site",
+              "Landing page",
+              "Reformulação de site",
+              "Preciso de orientação"
+            ]
+          },
+          {
+            "name": "message",
+            "label": "Sobre o projeto",
+            "type": "textarea",
+            "required": true
+          },
+          {
+            "name": "website",
+            "label": "Site atual",
+            "type": "url",
+            "required": false
+          },
+          {
+            "name": "timeline",
+            "label": "Prazo desejado",
+            "type": "text",
+            "required": false
+          }
         ]
       },
       "actions": [
         {
           "label": "Falar pelo WhatsApp",
           "channel": "whatsapp",
-          "href": null,
-          "status": "pending_contact"
+          "href": "https://wa.me/5543988234544?text=Ol%C3%A1%2C%20Pedro!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.",
+          "status": "configured"
         },
         {
           "label": "Enviar e-mail",
           "channel": "email",
-          "href": null,
-          "status": "pending_contact"
+          "href": "mailto:pedrosodrr10@gmail.com",
+          "status": "configured"
         }
-      ]
+      ],
+      "displayTitle": [
+        "Seu próximo site",
+        "começa com uma"
+      ],
+      "titleAccent": "boa conversa."
     }
   ],
   "contact": {
-    "whatsapp": null,
-    "email": null,
+    "whatsapp": "5543988234544",
+    "email": "pedrosodrr10@gmail.com",
     "whatsappMessage": "Olá, Pedro! Vi seu portfólio e gostaria de conversar sobre um projeto."
   },
   "footer": "Pedro Sodré · Desenvolvimento web"
